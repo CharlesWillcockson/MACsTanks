@@ -20,4 +20,11 @@
     font-family: 'Kaushan Script', cursive;
 }
 
+.link {
+    transition: transform .2s;
+}
 
+.link:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
