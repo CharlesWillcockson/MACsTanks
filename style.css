@@ -1,0 +1,9 @@
+.jumbotron * {
+    color: #4361ee;
+}
+
+.jumbotron {
+    background-image: url("assets/Coral.jpeg");
+    background-size: cover;
+    font-family: 'Kaushan Script', cursive;
+}
