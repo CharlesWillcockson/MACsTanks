@@ -32,3 +32,12 @@
 .bi{
     color: blue;
 }
+
+.quoteForm input {
+    width: 100%;
+    clear: both;
+}
+
+.quoteForm textarea {
+    width: 100%;
+}
