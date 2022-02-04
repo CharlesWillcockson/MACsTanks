@@ -1,4 +1,5 @@
 #body {
+    text-align: center;
     background: hsla(217, 100%, 50%, 1);
     background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
     background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
@@ -12,6 +13,7 @@
 
 .jumbotron * {
     color: #4361ee;
+    text-shadow: 2px 2px white;
 }
 
 .jumbotron {
@@ -20,14 +22,13 @@
     font-family: 'Kaushan Script', cursive;
 }
 
-.tank {
-    transition: transform .2s;
-}
+/*.tank {*/
+/*    transition: transform .2s;*/
+/*}*/
 
-.tank:hover{
-    transform3d: scale(1.5);
-    transform-origin: center;
-}
+/*.tank:hover{*/
+/*    transform: scale3d(1.5, 1.5, 1.5);*/
+/*}*/
 
 .bi{
     color: blue;
@@ -40,4 +41,9 @@
 
 .quoteForm textarea {
     width: 100%;
+}
+
+.examples {
+   margin: 0 auto;
+    float: none;
 }
